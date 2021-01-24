@@ -4,7 +4,7 @@
   "repository": "https://github.com/nikhilbghodke/sample",
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "express", "static"],
-  "success_url": "/welcome",
+  "success_url": "https://github.com/",
   "env": {
     "SLACK_SUBDOMAIN": {
       "description": "Your Slack's subdomain (**this**.slack.com)",
