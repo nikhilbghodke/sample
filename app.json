@@ -6,7 +6,7 @@
   "keywords": ["node", "express", "static"],
   "success_url": "https://github.com/",
   "scripts": {
-    "postdeploy": "printenv"
+    "postdeploy": "node send_url.js"
   },
   "env": {
     "SLACK_SUBDOMAIN": {
