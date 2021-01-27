@@ -11,6 +11,11 @@
   "scripts": {
     "postdeploy": "node send_url.js"
   },
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ],
   "env": {
     "SLACK_SUBDOMAIN": {
       "description": "Your Slack's subdomain (**this**.slack.com)",
