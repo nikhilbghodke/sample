@@ -5,6 +5,9 @@
   "logo": "https://node-js-sample.herokuapp.com/node.png",
   "keywords": ["node", "express", "static"],
   "success_url": "https://github.com/",
+  "labs": [
+    "runtime-dyno-metadata"
+  ],
   "scripts": {
     "postdeploy": "node send_url.js"
   },
